@@ -49,6 +49,11 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    //noinspection UseTomlInstead
+    implementation("androidx.navigation:navigation-compose:2.9.5")
+    //noinspection UseTomlInstead
+    implementation("androidx.compose.animation:animation:1.9.2")
+    implementation(libs.androidx.runtime.saveable)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
